@@ -1,0 +1,32 @@
+0x10 [servo 0] [servo 1] [servo 2] [servo 3] [servo 4] [servo 5]
+	position streaming of servos
+	values can be 0 to 255
+	127 is the position which is measured from servo's home position
+
+0x20
+	Stop command
+	resets and continues breathing
+	
+0x21
+	Pause command
+	holds last position and continues breathing
+
+0x22 [step, 0-255]
+	setting of set parameter
+
+0x24 [servo 0 mid pos] [servo 1 mid pos] [servo 2 mid posk] [servo 3 mid pos] [servo 4 mid pos] [servo 5 mid pos]
+	calibration of middle positions, 0-180° as 0-255 
+
+0x25 [timeout (upper byte)] [timeout (lower byte)]
+	timeout (uint16_t) set
+	measured in millisecs, when timeout reached and no streaming occures, the puppet goes to stop staet
+
+0x26 [servo 0 lower limit] [servo 0 upper limit] [servo 1 lower limit] [servo 1 upper limit] [servo 2 lower limit] [servo 2 upper limit] [servo 3 lower limit] [servo 3 upper limit] [servo 4 lower limit] [servo 4 upper limit] [servo 0 lower limit] [servo 5 upper limit]
+	limit from 127 down and up
+
+0x31
+	Serial disconnect, stops breathing
+
+'puppet'
+	serial discovery
+	response: macString (eg.: 'puppet911DA0')

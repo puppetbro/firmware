@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/emil/.platformio/penv/bin:/home/emil/.platformio/penv:/home/emil/.local/bin:/home/emil/bin:/home/emil/anaconda3/bin:/home/emil/.local/bin:/home/emil/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\ffactory\\.platformio\\penv\\Scripts;C:\\Users\\ffactory\\.platformio\\penv;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Android\\sdk\\platform-tools;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\ffmpeg\\bin;C:\\Program Files\\doxygen\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ffactory\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Android\\sdk\\platform-tools;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\ffmpeg\\bin;C:\\Program Files\\doxygen\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ffactory\\AppData\\Local\\Microsoft\\WindowsApps;",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
